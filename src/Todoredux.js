@@ -18,7 +18,7 @@ export const Todoredux = () => {
                 <button onClick={() => dispatch(AddTask(task))} className='border border-black py-1 px-3'><IoMdAdd /></button>
                 <button onClick={() => dispatch(DeleteTask())} className='border border-black py-1 px-3'><FaTrash /></button>
             </div>
-            <br />
+            <br /> 
             <div>
                 {username.map((ele,index) => {
                     return (
