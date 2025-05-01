@@ -1,8 +1,8 @@
 import './App.css';
-// import { IoMdAdd } from "react-icons/io";
-// import { FaTrash } from "react-icons/fa";
-// import { useState } from 'react';
-// import { Task } from './Task';
+import { IoMdAdd } from "react-icons/io";
+import { FaTrash } from "react-icons/fa";
+import { useState } from 'react';
+import { Task } from './Task';
 import { Todoredux } from './Todoredux';
 import { Provider } from 'react-redux';
 import { store } from './Todostore';
